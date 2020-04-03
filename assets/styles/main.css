@@ -1,0 +1,14 @@
+body {
+	margin: 0;
+	color: black;
+	user-select: none;
+	font-family: 'Playfair Display', serif;
+	overflow: hidden;
+}
+
+@media (prefers-color-scheme: dark) {
+	body {
+		color: white;
+		background: black;
+	}
+}

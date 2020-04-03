@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Techy things -->
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Security-Policy"
+      content="
+        default-src 'self';
+        style-src 'self' https://fonts.googleapis.com;
+        font-src 'self' https://fonts.gstatic.com;">
+    <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <!-- Cool Google fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
+    <!-- House styles -->
+    <link rel="stylesheet" href="assets/styles/main.css">
+    <!-- Window / App title -->
+    <title>Traffy Bird!</title>
+  </head>
+  <body>
+    <canvas id="canvas" width="288" height="512"></canvas>
+
+    <!-- You can also load in other files to run -->
+    <script src="code/helpers.js"></script>
+    <script src="code/Rect.js"></script>
+    <script src="code/Sprite.js"></script>
+    <script src="code/game.js"></script>
+  </body>
+</html>
