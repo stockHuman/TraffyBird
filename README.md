@@ -1,4 +1,4 @@
-# electron-quick-start
+# Traffy Bird
 
 **Clone and run for a quick way to see Electron in action.**
 
@@ -31,6 +31,10 @@ npm start
 
 Note: If you're using Linux Bash for Windows, [see this guide](https://www.howtogeek.com/261575/how-to-run-graphical-linux-desktop-applications-from-windows-10s-bash-shell/) or use `node` from the command prompt.
 
+## Game Asset resources
+
+- [Kenney.nl](https://www.kenney.nl/assets/tappy-plane)
+
 ## Resources for Learning Electron
 
 - [electronjs.org/docs](https://electronjs.org/docs) - all of Electron's documentation
@@ -42,4 +46,4 @@ Note: If you're using Linux Bash for Windows, [see this guide](https://www.howto
 
 ## License
 
-[CC0 1.0 (Public Domain)](LICENSE.md)
+Electron is in the [Public Domain](https://github.com/electron/electron/blob/master/LICENSE)
